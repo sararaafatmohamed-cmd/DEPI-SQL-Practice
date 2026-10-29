@@ -54,3 +54,36 @@ WHERE MOD(ID, 2) = 0;
 SELECT COUNT(CITY) - COUNT(DISTINCT CITY)
 FROM STATION;
 
+
+-- 10. Revising Aggregations - The Count Function
+SELECT COUNT(*)
+FROM CITY
+WHERE POPULATION > 100000;
+
+
+-- 11. Revising Aggregations - The Sum Function
+SELECT SUM(POPULATION)
+FROM CITY
+WHERE DISTRICT = 'California';
+
+
+-- 12. Revising Aggregations - Averages
+SELECT AVG(POPULATION)
+FROM CITY
+WHERE DISTRICT = 'California';
+
+
+-- 13. Average Population
+SELECT ROUND(AVG(POPULATION))
+FROM CITY;
+
+
+-- 14. Japan Population
+SELECT SUM(POPULATION)
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
+
+
+-- 15. Population Density Difference
+SELECT MAX(POPULATION) - MIN(POPULATION)
+FROM CITY;
