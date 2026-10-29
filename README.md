@@ -1,22 +1,26 @@
 # DEPI SQL Practice
 
 ## About
-This repository contains SQL practice exercises completed as part of my training in the Digital Egypt Pioneers Initiative (DEPI).
+This repository contains SQL exercises completed as part of my training in the Digital Egypt Pioneers Initiative (DEPI).
 
-The exercises are based on HackerRank SQL challenges and focus on fundamental SQL querying skills.
+The exercises are based on HackerRank challenges and focus on building a strong foundation in SQL for data analysis.
 
 ## Topics Covered
-- Selecting data using `SELECT`
-- Filtering records using `WHERE`
-- Using conditions with `AND`
-- Removing duplicates using `DISTINCT`
-- Aggregate functions using `COUNT()`
-- Filtering data using `MOD()`
+- Data retrieval using SELECT
+- Filtering data using WHERE and AND
+- Removing duplicate records using DISTINCT
+- Aggregate functions: COUNT(), SUM(), AVG(), MIN(), and MAX()
+- Sorting and filtering data
+- Working with conditions using MOD()
+- Rounding numerical results using ROUND()
 
 ## Tools & Platforms
 - SQL
 - HackerRank
 - GitHub
 
-## Goal
-To strengthen my SQL fundamentals and improve my problem-solving skills as part of my Data Analysis learning journey.
+## Objective
+To strengthen my SQL skills, improve problem-solving abilities, and apply fundamental querying techniques as part of my Data Analysis learning journey.
+
+## Program
+Digital Egypt Pioneers Initiative (DEPI)
